@@ -12,6 +12,10 @@
     color: $main-color;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -24,4 +28,5 @@
 @import "blocks/about";
 @import "blocks/question";
 @import "blocks/footer";
+@import "blocks/pageup";
 @import "blocks/media";
