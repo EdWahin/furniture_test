@@ -1,0 +1,27 @@
+@import "base/variables";
+@import "base/btns";
+@import "base/titles";
+@import "base/befores";
+@import "base/line";
+
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: $main-color;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import "blocks/header";
+@import "blocks/slider";
+@import "blocks/advantages";
+@import "blocks/category";
+@import "blocks/about";
+@import "blocks/question";
+@import "blocks/footer";
+@import "blocks/media";

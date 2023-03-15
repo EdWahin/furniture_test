@@ -1,0 +1,184 @@
+.footer {
+    background-color: $main-color;
+    min-height: 520px;
+    padding: 50px 50px 15px 0;
+    position: relative;
+    overflow: hidden;
+    &_bg {
+        position: absolute;
+        height: 520px;
+        width: 640px;
+        right: 0;
+        top: 0;
+        img {
+            object-fit: cover;
+        }
+    }
+    &_wrapper {
+        min-height: 455px;
+        width: 550px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    &__info {
+        width: 100%;
+        &_logo {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            &-text {
+                margin-left: 15px;
+                color: #fff;
+                font-weight: 700;
+                font-size: 35px;
+                span {
+                    color: $green-color;
+                }
+            }
+        }
+        &_wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-top: 50px;
+        }
+        &_menu {
+            width: 150px;
+            list-style: none;
+            font-weight: 700;
+            font-size: 20px;
+            text-transform: uppercase;
+            &-item {
+                color: #fff;
+                margin-bottom: 15px;
+                padding-left: 20px;
+                position: relative;
+                cursor: pointer;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 15px;
+                    height: 3px;
+                    left: 0;
+                    top: 50%;
+                    background-color: $green-color;
+                }
+            }
+        }
+        &_about {
+            width: 150px;
+            list-style: none;
+            font-weight: 700;
+            font-size: 20px;
+            text-transform: uppercase;
+            &-item {
+                color: #fff;
+                margin-bottom: 15px;
+                padding-left: 20px;
+                position: relative;
+                cursor: pointer;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 15px;
+                    height: 3px;
+                    left: 0;
+                    top: 50%;
+                    background-color: $green-color;
+                }
+            }
+        }
+        &_contacts {
+            width: 200px;
+        }
+    }
+    &__contacts {
+        &_map {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            font-size: 18px;
+            margin-bottom: 15px;
+            i {
+                color: #fff;
+            }
+            &-text {
+                color: #fff;
+                margin-left: 10px;
+                font-weight: 300;
+            }
+        }
+        &_schedule {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            font-size: 18px;
+            margin-bottom: 15px;
+            i {
+                color: #fff;
+            }
+            &-text {
+                color: #fff;
+                margin-left: 10px;
+                font-weight: 300;
+            }
+        }
+        &_phones {
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            font-size: 18px;
+            margin-bottom: 30px;
+            i {
+                color: $green-color;
+            }
+            &-mobile {
+                margin-left: 10px;
+            }
+            &-item {
+                font-weight: 700;
+                color: $green-color;
+                display: block;
+                margin-bottom: 10px;
+                text-decoration: none;
+            }
+        }
+        &_socials {
+            &-text {
+                color: #fff;
+                font-size: 15px;
+                font-weight: 400;
+                margin-bottom: 20px;
+            }
+            &-items {
+                i {    
+                    font-size: 30px;
+                    color: #fff;
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+    &__copyright {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        &_copy {
+            color: #fff;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        &_wrapper {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+        &_brand {
+            color: #fff;
+            font-size: 14px;
+            margin-left: 5px;
+        }
+    }
+}

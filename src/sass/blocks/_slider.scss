@@ -1,0 +1,62 @@
+.slider {
+    min-height: 785px;
+    background: url('../img/slider_bg.png') center (center/cover) no-repeat;
+
+    &__info {
+        min-height: 670px;
+        width: 460px;
+        background-color: #fff;
+        text-align: center;
+        position: relative;
+        margin-left: 15px;
+        &_line {
+            left: -15px;
+        }
+        &_new {
+            padding-top: 90px;
+            font-size: 64px;
+        }
+
+        &_title {
+            margin-top: 50px;
+            font-size: 30px;
+        }
+
+        &_descr {
+            margin-top: 20px;
+            font-size: 36px;
+            font-weight: 300;
+        }
+
+        &_btn {
+            margin-top: 30px;
+            width: 210px;
+        }
+
+        &_counter {
+            margin-top: 50px;
+
+            &-numbers {
+                font-size: 30px;
+                font-weight: 700;
+
+                span {
+                    font-size: 45px;
+                }
+            }
+
+            &-arrows {
+                margin-top: 10px;
+                font-size: 30px;
+
+                i {
+                    cursor: pointer;
+                }
+
+                i.fa-chevron-circle-left {
+                    color: grey;
+                }
+            }
+        }
+    }
+}
